@@ -1,0 +1,16 @@
+PODS:
+  - segment-ios-integration-webengage-test (0.1.0)
+
+DEPENDENCIES:
+  - segment-ios-integration-webengage-test (from `../`)
+
+EXTERNAL SOURCES:
+  segment-ios-integration-webengage-test:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  segment-ios-integration-webengage-test: b5a8f3f75676184b50492f6212f40bd702ee6ea3
+
+PODFILE CHECKSUM: 67f3cb71fdfbdd6d12d0212e440c7e8479630c7f
+
+COCOAPODS: 1.2.1

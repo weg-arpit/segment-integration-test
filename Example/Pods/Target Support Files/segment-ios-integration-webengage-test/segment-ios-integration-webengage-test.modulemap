@@ -1,0 +1,6 @@
+framework module segment_ios_integration_webengage_test {
+  umbrella header "segment-ios-integration-webengage-test-umbrella.h"
+
+  export *
+  module * { export * }
+}

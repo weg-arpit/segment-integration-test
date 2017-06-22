@@ -1,0 +1,22 @@
+{
+  "name": "segment-ios-integration-webengage-test",
+  "version": "0.1.0",
+  "summary": "A short description of segment-ios-integration-webengage-test.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/arpit@webklipper.com/segment-ios-integration-webengage-test",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "arpit@webklipper.com": "arpit@webklipper.com"
+  },
+  "source": {
+    "git": "https://github.com/arpit@webklipper.com/segment-ios-integration-webengage-test.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "segment-ios-integration-webengage-test/Classes/**/*"
+}

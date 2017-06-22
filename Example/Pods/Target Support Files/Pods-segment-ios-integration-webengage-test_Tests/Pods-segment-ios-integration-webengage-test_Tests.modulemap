@@ -1,0 +1,6 @@
+framework module Pods_segment_ios_integration_webengage_test_Tests {
+  umbrella header "Pods-segment-ios-integration-webengage-test_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

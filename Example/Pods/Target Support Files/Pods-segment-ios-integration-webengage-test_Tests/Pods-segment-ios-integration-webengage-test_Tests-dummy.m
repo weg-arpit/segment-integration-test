@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_segment_ios_integration_webengage_test_Tests : NSObject
+@end
+@implementation PodsDummy_Pods_segment_ios_integration_webengage_test_Tests
+@end

@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'segment-ios-integration-webengage-test'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of segment-ios-integration-webengage-test.'
+  s.name             = "Segment-WebEngage"
+  s.version          = "1.0.0"
+  s.summary          = "WebEngage Integration for Segment's analytics-ios library."
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,25 +18,21 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+                        WebEngage integration for Analytics for iOS library by segment.com
                        DESC
 
   s.homepage         = 'https://github.com/arpit@webklipper.com/segment-ios-integration-webengage-test'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'arpit@webklipper.com' => 'arpit@webklipper.com' }
+  s.author           = { 'Arpit Agrawal' => 'arpit@webklipper.com' }
   s.source           = { :git => 'https://github.com/arpit@webklipper.com/segment-ios-integration-webengage-test.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '7.0'
 
   s.source_files = 'segment-ios-integration-webengage-test/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'segment-ios-integration-webengage-test' => ['segment-ios-integration-webengage-test/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  
+  s.dependency 'WebEngage'
+  s.dependency 'Analytics'
 end
