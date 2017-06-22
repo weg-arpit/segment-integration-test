@@ -21,12 +21,11 @@ Pod::Spec.new do |s|
                         WebEngage integration for Analytics for iOS library by segment.com
                        DESC
 
-  s.homepage         = 'https://github.com/arpit@webklipper.com/segment-ios-integration-webengage-test'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Arpit Agrawal' => 'arpit@webklipper.com' }
-  s.source           = { :git => 'https://github.com/arpit@webklipper.com/segment-ios-integration-webengage-test.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.homepage         = "https://github.com/arpit@webklipper.com/segment-ios-integration-webengage-test"
+  s.license          = { :type => "MIT", :file => "LICENSE" }
+  s.author           = { "Arpit Agrawal" => 'arpit@webklipper.com' }
+  s.source           = { :git => "https://github.com/weg-arpit/segment-ios-integration-webengage-test.git", :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/segment'
 
   s.ios.deployment_target = '7.0'
 
