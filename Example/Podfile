@@ -1,0 +1,6 @@
+use_frameworks!
+target 'segment-ios-integration-webengage-test_Tests' do
+  pod 'segment-ios-integration-webengage-test', :path => '../'
+  
+  
+end
